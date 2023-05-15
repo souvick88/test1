@@ -1,0 +1,6 @@
+// :host {
+// }
+
+:host-context(.test) .test-border {
+  border: 10px solid purple;
+}

@@ -1,0 +1,17 @@
+<p>bar works!</p>
+<figure id="bar"></figure>
+
+<mat-selection-list #list class="test-border">
+  <mat-list-option>lion</mat-list-option>
+  <mat-list-option #option>tiger</mat-list-option>
+  <mat-list-option>zebra</mat-list-option>
+  <mat-list-option>giraffe</mat-list-option>
+</mat-selection-list>
+
+
+<mat-action-list>
+  <button mat-list-item>lion</button>
+  <button mat-list-item disabled>tiger</button>
+  <button mat-list-item>horse</button>
+</mat-action-list>
+<button (click)="focusTiger()">focus tiger</button>
